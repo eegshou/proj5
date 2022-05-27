@@ -23,7 +23,7 @@ The data is download from Kaggle (https://www.kaggle.com/datasets/paultimothymoo
 
 ### EDA
 
-#### The data I loaded from the website is a csv file: netflix_titles.csv
+### The data I loaded from the website is a csv file: netflix_titles.csv
 
 - It has a total of 8807 entries and 12 columns.
 - There are some null values in 6 columns:
@@ -33,22 +33,17 @@ The data is download from Kaggle (https://www.kaggle.com/datasets/paultimothymoo
   4) country: this one is also important, instead of replacing with nodata, I will replace it with the most common country
   5) data_added, rating, duration: just drop these entries
 
-#### Go through some selected columns
-
-##### The percentage of each type:
-
+### Go through some selected columns
+#### The percentage of each type:
 ![figure of notypes](figures/notypes.png)
 
-##### The directors who have the top 10 titles in the database:
-
+#### The directors who have the top 10 titles in the database:
 ![figure of top10directorsunpacked](figures/top10directorunpacked.png)
 
-##### The casts who have the top 10 titles:
-
+#### The casts who have the top 10 titles:
 ![figure of top10cast](figures/top10castunpacked.png)
 
 ##### The countries who have the top 10 titles:
-
 ![figure of top10countries](figures/top10countryunpacked.png)
 
 USA,India,and UK have the top 3 number of movies/TV show
