@@ -45,22 +45,19 @@ The data is download from Kaggle (https://www.kaggle.com/datasets/paultimothymoo
 
 #### The countries who have the top 10 titles:
 ![figure of top10countries](figures/top10countryunpacked.png)
-
 - USA,India,and UK have the top 3 number of movies/TV show
 
 #### Precentages of movies/tv shows with respect to adding years and release years
 ![figure of noc20152021](figures/numofcounts2015_2021.png)
-
 - In general, there are more movies than TV shows in each year
+
 #### The rating
 ![figure of rating](figures/ratingcount.png)
-
 - TV-MA, TV-14, TV-PG are the three ratings with top three counts
 
 #### The list_in
 ![figure of list_in](figures/top10listed_inunpackedTVShow.png)
-
-- International,commedy,drama are the top three
+- International, commedy, drama are the top three categories in both TV show/Movie
 
 #### The description
 ![figure of description](figures/descriptionwordcloud.png)
