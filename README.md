@@ -61,6 +61,7 @@ The data is download from Kaggle (https://www.kaggle.com/datasets/paultimothymoo
 
 #### The description
 ![figure of description](figures/descriptionwordcloud.png)
+- The life, find, family, new,take,love have the most occurrence
 
 ### Recommendation
 
