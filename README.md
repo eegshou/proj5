@@ -43,35 +43,29 @@ The data is download from Kaggle (https://www.kaggle.com/datasets/paultimothymoo
 #### The casts who have the top 10 titles:
 ![figure of top10cast](figures/top10castunpacked.png)
 
-##### The countries who have the top 10 titles:
+#### The countries who have the top 10 titles:
 ![figure of top10countries](figures/top10countryunpacked.png)
 
-USA,India,and UK have the top 3 number of movies/TV show
+- USA,India,and UK have the top 3 number of movies/TV show
 
-##### Precentages of movies/tv shows with respect to adding years and release years
-
+#### Precentages of movies/tv shows with respect to adding years and release years
 ![figure of noc20152021](figures/numofcounts2015_2021.png)
 
-In general, there are more movies than TV shows in each year
-
-##### The rating
-
+- In general, there are more movies than TV shows in each year
+#### The rating
 ![figure of rating](figures/ratingcount.png)
 
-TV-MA, TV-14, TV-PG are the three ratings with top three counts
+- TV-MA, TV-14, TV-PG are the three ratings with top three counts
 
-##### The list_in
-
+#### The list_in
 ![figure of list_in](figures/top10listed_inunpackedTVShow.png)
 
-International,commedy,drama are the top three
+- International,commedy,drama are the top three
 
-##### The description
-
+#### The description
 ![figure of description](figures/descriptionwordcloud.png)
 
-
-#### Recommendation
+### Recommendation
 
 I tried six combinations of features based on 'director','cast','rating','listed_in','description':
 - 'comb_features0': ('director', 'cast', 'rating', 'listed_in'),
@@ -82,17 +76,13 @@ I tried six combinations of features based on 'director','cast','rating','listed
 - 'comb_features5': ('director', 'cast', 'rating', 'listed_in', 'description')
 
 and found they are generally similar, see an example:
-
 ![figure of difcombfeatures](figures/top10recomdtitles_toohottohandlebrazil_df.png)
 
 So I just used comb_feataures5, and two examples of TV show and Movie are shown below:
-
-TV show:'love on the spectrum'
-
+- TV show:'love on the spectrum'
 ![figure of top10TVshow](figures/top10recomdtitles_loveonthespectrum.png)
 
-Movie: jeans
-
+- Movie: jeans
 ![figure of top10TVshow](figures/top10recomdtitles_jeans.png)
 
 ### Conclusion
