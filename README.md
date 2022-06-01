@@ -18,8 +18,7 @@ In this project, I downloaded Netflix Moives and TV Shows dataset from https://w
 
 ### The Data
 
-The data is download from Kaggle (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), which has been saved in the folder: /figures/, with three folders corresponding to Train, Val, and Test set
-
+the data was downloaded from  https://www.kaggle.com/datasets/shivamb/netflix-shows, which has been saved in the folder: /data/
 
 ### EDA
 
